@@ -27,7 +27,7 @@ print(sample_string('my'))
 
 def string(str):
   if len(str) < 3:
-    return ''
+    return 'str'
 print(string('x'))
 
 # Task 2 The valid phone number program.
@@ -42,16 +42,14 @@ else:
 
 
 #Task 3
-"""
 name = 'volodymyr'
-print('Enter your name:')
-input()
-if name != str:
-  print('please use leters.')
-elif name == 'uppercase':
-  print('Try agen.')
-else:
-  print('Hello' + name + 'we happy to see you.')
-"""
+
+while True:
+  nameinput = input('What is my name?')
+  if name.lower() == name.lower():
+    print(f'Yes my name is {name.capitalize()}')
+    break
+  else:
+    print(f'Sory but my name is not {nameinput.capitalize()}, try again.')
 
 
